@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Movie House</string>
+    <string name="main_page_action_bar_title">Movie House</string>
+    <string name="main_page_logo">Logo</string>
+    <string name="backward_icon">Back Icon</string>
+
+    <string name="register_movie_btn">Register Movie</string>
+    <string name="display_movies_btn">Display Movies</string>
+    <string name="favourite_movies_btn">Favourites</string>
+    <string name="edit_movies_btn">Edit Movies</string>
+    <string name="search_movie_btn">Search</string>
+    <string name="rating_btn">Ratings</string>
+
+    <string name="register_action_bar_title">Register Movie</string>
+    <string name="register_edit_text_title">Please Enter the Title of the Movie</string>
+    <string name="register_edit_text_year">Please Enter Year of the Movie</string>
+    <string name="register_edit_text_director">Please Enter Name of the Director</string>
+    <string name="register_edit_text_cast">Please Enter List of Actors/Actresses</string>
+    <string name="register_edit_text_rating">Please Enter Rating of the Movie</string>
+    <string name="register_edit_text_review">Please Enter Review about Movie</string>
+    <string name="register_save_btn">Save</string>
+    <string name="register_save_successfully">Movie details saved successfully</string>
+    <string name="register_year_notify">Year of the Movie must greater than 1895</string>
+    <string name="register_rating_notify">Rating of the Movie must between 1 – 10</string>
+    <string name="register_empty_notify">Please fill all the Blanks</string>
+
+    <string name="display_action_bar_title">Display Movies</string>
+    <string name="display_add_to_fav">Add to Favourites</string>
+    <string name="display_empty_text">Registered Movie List is Empty</string>
+    <string name="display_no_selected">Movies not selected to add favourites</string>
+    <string name="display_selected">Successfully added to favourites</string>
+
+    <string name="favourites_action_bar_title">Favourites</string>
+    <string name="favourites_remove_fav">Save</string>
+    <string name="favourites_empty_text">Favourite Movie List is Empty</string>
+    <string name="favourites_no_unselected">Movies not unselected to remove</string>
+    <string name="favourites_unselected">Successfully removed from favourites</string>
+    <string name="favourites_unselected_check_box">Movie removed from favourites</string>
+
+    <string name="edit_action_bar_title">Edit Movies</string>
+    <string name="edit_update_btn">Update</string>
+
+    <string name="selected_action_bar_title">Movie Details</string>
+    <string name="selected_title">Title of the Movie</string>
+    <string name="selected_year">Year of the Movie</string>
+    <string name="selected_director">Name of the Director</string>
+    <string name="selected_cast">Movie Cast</string>
+    <string name="selected_rating">Rating of the Movie</string>
+    <string name="selected_review">Review about Movie</string>
+    <string name="selected_favourite">Favourite status</string>
+    <string name="selected_favourite_radio">Favourite</string>
+    <string name="selected_non_favourite_radio">Not Favourite</string>
+    <string name="selected_update">Movie Details updated Successfully</string>
+
+    <string name="search_action_bar_title">Search</string>
+    <string name="search_lookup">Lookup button</string>
+    <string name="search_hint_text">Search Here</string>
+    <string name="search_empty_value">Please enter value to Search</string>
+    <string name="search_no_match">Zero result found</string>
+    <string name="search_movie_title">Movie Titles</string>
+    <string name="search_movie_director">Movie Directors</string>
+    <string name="search_movie_cast">Movie Cast</string>
+
+    <string name="ratings_action_bar_title">Ratings</string>
+    <string name="ratings_find_movie_btn">Find movie in IMDB</string>
+    <string name="ratings_no_selected">Movie not selected</string>
+    <string name="imdb_action_bar_title">Movie Details</string>
+
+</resources>

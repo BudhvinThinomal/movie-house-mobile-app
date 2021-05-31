@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_page"
+    tools:context=".RegisterMovieActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/includeRegister"
+                layout="@layout/activity_register_movie_action_bar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextTitle"
+                android:layout_width="305dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/customize_edit_text"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:hint="@string/register_edit_text_title"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/blue_850"
+                android:textColorHint="@color/black_850"
+                android:textCursorDrawable="@color/blue_850"
+                android:textSize="18sp"
+                tools:ignore="RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/editTextYear"
+                android:layout_width="305dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/customize_edit_text"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:hint="@string/register_edit_text_year"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/blue_850"
+                android:textColorHint="@color/black_850"
+                android:textCursorDrawable="@color/blue_850"
+                android:textSize="18sp"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/yearOFMovieNotify"
+                android:layout_width="305dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/customize_notify_text"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:text="@string/register_year_notify"
+                android:textColor="@color/blue_850"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextDirector"
+                android:layout_width="305dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/customize_edit_text"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:hint="@string/register_edit_text_director"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/blue_850"
+                android:textColorHint="@color/black_850"
+                android:textCursorDrawable="@color/blue_850"
+                android:textSize="18sp"
+                tools:ignore="RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/editTextAct"
+                android:layout_width="305dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/customize_edit_text"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:hint="@string/register_edit_text_cast"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/blue_850"
+                android:textColorHint="@color/black_850"
+                android:textCursorDrawable="@color/blue_850"
+                android:textSize="18sp"
+                tools:ignore="RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/editTextRating"
+                android:layout_width="305dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/customize_edit_text"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:hint="@string/register_edit_text_rating"
+                android:importantForAutofill="no"
+                android:inputType="number"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/blue_850"
+                android:textColorHint="@color/black_850"
+                android:textCursorDrawable="@color/blue_850"
+                android:textSize="18sp"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/ratingOFMovieNotify"
+                android:layout_width="305dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/customize_notify_text"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:text="@string/register_rating_notify"
+                android:textColor="@color/blue_850"
+                android:textSize="12sp" />
+
+            <EditText
+                android:id="@+id/editTextReview"
+                android:layout_width="305dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/customize_edit_text"
+                android:ems="10"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_horizontal"
+                android:hint="@string/register_edit_text_review"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:textColor="@color/blue_850"
+                android:textColorHint="@color/black_850"
+                android:textCursorDrawable="@color/blue_850"
+                android:textSize="18sp"
+                tools:ignore="RtlHardcoded" />
+
+            <Button
+                android:id="@+id/registerSaveBtn"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/register_save_btn"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

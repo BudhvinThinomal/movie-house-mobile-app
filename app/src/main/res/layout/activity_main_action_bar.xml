@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customize_heading">
+
+    <ImageView
+        android:id="@+id/mainPageActionBarImgView"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/main_page_logo"
+        android:src="@drawable/ic_main_page_action_bar_logo" />
+
+    <TextView
+        android:id="@+id/mainPageActionBarTitle"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/main_page_action_bar_title"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
